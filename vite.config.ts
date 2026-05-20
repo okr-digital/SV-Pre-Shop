@@ -5,6 +5,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
+    base: './', // Erlaubt relative Pfade, wichtig für GitHub Pages (Subdirectories)
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
