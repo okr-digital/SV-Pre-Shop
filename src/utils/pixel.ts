@@ -28,12 +28,7 @@ export const initFacebookPixel = () => {
   const t = b.createElement(e) as HTMLScriptElement;
   t.async = !0;
   t.src = v;
-  const s = b.getElementsByTagName(e)[0];
-  if (s && s.parentNode) {
-    s.parentNode.insertBefore(t, s);
-  } else {
-    b.head.appendChild(t);
-  }
+  b.head.appendChild(t);
 
   window.fbq('init', PIXEL_ID);
   window.fbq('track', 'PageView');
