@@ -1,5 +1,5 @@
 {
-  "name": "SanoVet Landingpage",
+  "name": "SanoVet - das Beste fürs Pferd",
   "description": "Eine Conversion-optimierte Landingpage für SanoVet, fokussiert auf zielgruppenorientierte Produkt-Routing für Pferdegesundheit.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
